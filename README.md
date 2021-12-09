@@ -62,13 +62,13 @@ Make configuration entries for the relevant GitHub accounts similar to the one b
     Host github.com
       HostName github.com
       User git
-      IdentityFile ~/.ssh/id_rsa`
+      IdentityFile ~/.ssh/id_rsa
    
     # Work account-1
     Host github.com-work_user1    
       HostName github.com
       User git
-      IdentityFile ~/.ssh/id_rsa_work_user1`
+      IdentityFile ~/.ssh/id_rsa_work_user1
       
   ***“work_user1”*** is the GitHub user id for the work account.
   ***“github.com-work_user1”*** is a notation used to differentiate the multiple Git accounts.
